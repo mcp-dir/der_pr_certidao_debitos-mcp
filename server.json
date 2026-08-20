@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/der_pr_certidao_debitos-mcp",
+  "title": "DER PR: Certidão Negativa de Débitos (por placa)",
+  "description": "DER PR: Clearance Certificate (Debts) (por placa), official-source lookup. Platform-hosted, pay per ",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/der_pr_certidao_debitos-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_der_pr_certidao_debitos"
+    }
+  ]
+}
